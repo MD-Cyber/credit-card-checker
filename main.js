@@ -24,7 +24,7 @@ const mystery5 = [4, 9, 1, 3, 5, 4, 0, 4, 6, 3, 0, 7, 2, 5, 2, 3]
 const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, invalid3, invalid4, invalid5, mystery1, mystery2, mystery3, mystery4, mystery5]
 
 
-// Add your functions below:
+
 //console.log(batch.length)
 
 //checks a card and return if its a valid or not.
@@ -108,5 +108,5 @@ const idInvalidCardCompanies = (invalidCards) => {
 
 const invalidCards = (findInvalidCards(batch))
 console.log(idInvalidCardCompanies(invalidCards))
-console.log(validCards)
+//console.log(validCards)
 
